@@ -161,9 +161,11 @@ body{
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
 .about .text{
     margin-bottom: 15px;
 }
+
 .about .text h4{
     text-transform: uppercase;
     color: #2a7da2;
@@ -177,6 +179,7 @@ body{
     grid-template-columns: 150px 1fr;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .skills .box h4{
@@ -204,6 +207,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+
 .interests ul li{
     list-style: none;
     color: #333;
