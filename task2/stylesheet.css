@@ -1,0 +1,43 @@
+.container-fluid {
+  padding: 0px;
+}
+body {
+  background-color: rgb(231, 231, 231);
+}
+.navbar-nav .nav-item .dropdown-menu {
+  width: 100%;
+  left: 0;
+}
+
+.nav-item .dropdown-menu {
+  display: none;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu .dropdown-item {
+  color: #333;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Style for white background subsection */
+.navbar-nav .nav-item .white-background-subsection {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}
+
+/* Show white background subsection on hover */
+.nav-item:hover .white-background-subsection {
+  display: flex;
+}
