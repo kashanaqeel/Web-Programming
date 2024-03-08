@@ -71,7 +71,7 @@ th {
 
 .icon-label {
     position: relative;
-    padding-left: 10px; /* Adjust the spacing as needed */
+    padding-left: 10px;
 }
 
 .icon-label i {
@@ -79,17 +79,16 @@ th {
     left: 0;
     top: 0;
     transform: translate(-50%, 0);
-    color: burlywood; /* Change the color as needed */
+    color: burlywood;
 }
 
 .form-group{
     color: steelblue;
 }
 
-/* CSS for making radio buttons inline */
 #relocate-group .radio-buttons {
     display: flex;
 }
 #relocate-group .radio-buttons label {
-    margin-right: 20px; /* Adjust spacing between radio buttons */
+    margin-right: 20px;
 }
