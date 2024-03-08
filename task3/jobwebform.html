@@ -3,108 +3,114 @@
 <head>
 <title>Job Application Form</title>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 <body>
 
 <div class="container">
-    <h2>Job Application Form</h2>
+    <h2 style="color: midnightblue; font-family:Tahoma">Job Application Form</h2>
     <form id="jobApplicationForm">
-        <div>
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" required>
+        <div class="form-group">
+            <label for="firstName" class="icon-label"><i class="fas fa-caret-down"></i>First Name:</label>
+            <input type="text" id="firstName" name="firstName" class="form-control" required>
         </div>
-        <div>
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" required>
+        <div class="form-group">
+            <label for="lastName" class="icon-label"><i class="fas fa-caret-down"></i>Last Name:</label>
+            <input type="text" id="lastName" name="lastName" class="form-control" required>
         </div>
-        <div>
-            <label for="phoneNumber">Phone Number:</label>
-            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+        <div class="form-group">
+            <label for="phoneNumber" class="icon-label"><i class="fas fa-caret-down"></i>Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" required>
         </div>
-        <div>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
+        <div class="form-group">
+            <label for="email" class="icon-label"><i class="fas fa-caret-down"></i>Email Address:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
         </div>
-        <div>
-            <label for="resume">Upload Resume:</label>
-            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+        <div class="form-group">
+            <label for="resume" class="icon-label"><i class="fas fa-caret-down"></i>Upload Resume:</label>
+            <input type="file" id="resume" name="resume" class="form-control-file" accept=".pdf,.doc,.docx" required>
         </div>
-        <div>
-            <label for="coverLetter">Cover Letter:</label>
-            <textarea id="coverLetter" name="coverLetter" rows="4" required></textarea>
+        <div class="form-group" >
+            <label for="coverLetter" class="icon-label"><i class="fas fa-caret-down"></i>Cover Letter:</label>
+            <textarea id="coverLetter" name="coverLetter" class="form-control" rows="4" required></textarea>
         </div>
-        <div>
-            <label for="education">Highest Level of Education Attained:</label>
-            <input type="text" id="education" name="education" required>
+        <div class="form-group">
+            <label for="education" class="icon-label"><i class="fas fa-caret-down"></i>Highest Level of Education Attained:</label>
+            <input type="text" id="education" name="education" class="form-control" required>
         </div>
-        <div>
-            <label for="school">Name of School/University:</label>
-            <input type="text" id="school" name="school" required>
+        <div class="form-group">
+            <label for="school" class="icon-label"><i class="fas fa-caret-down"></i>Name of School/University:</label>
+            <input type="text" id="school" name="school" class="form-control" required>
         </div>
-        <div>
-            <label for="major">Major/Area of Study:</label>
-            <input type="text" id="major" name="major" required>
+        <div class="form-group">
+            <label for="major" class="icon-label"><i class="fas fa-caret-down"></i>Major/Area of Study:</label>
+            <input type="text" id="major" name="major" class="form-control" required>
         </div>
-        <div>
-            <label for="graduationYear">Graduation Year:</label>
-            <input type="text" id="graduationYear" name="graduationYear" required>
+        <div class="form-group">
+            <label for="graduationYear" class="icon-label"><i class="fas fa-caret-down"></i>Graduation Year:</label>
+            <input type="number" id="graduationYear" name="graduationYear" class="form-control" required>
         </div>
-        <div>
-            <label for="previousJobTitles">Previous Job Titles:</label>
-            <input type="text" id="previousJobTitles" name="previousJobTitles" required>
+        <br>
+        <div class="form-group">
+            <label for="previousJobTitles" class="icon-label"><i class="fas fa-caret-down"></i>Previous Job Titles:</label>
+            <input type="text" id="previousJobTitles" name="previousJobTitles" class="form-control" required>
         </div>
-        <div>
-            <label for="companyNames">Company Names:</label>
-            <input type="text" id="companyNames" name="companyNames" required>
+        <div class="form-group">
+            <label for="companyNames" class="icon-label"><i class="fas fa-caret-down"></i>Company Names:</label>
+            <input type="text" id="companyNames" name="companyNames" class="form-control" required>
         </div>
-        <div>
-            <label for="employmentDates">Employment Dates:</label>
-            <input type="text" id="employmentDates" name="employmentDates" required>
+        <div class="form-group">
+            <label for="employmentDates" class="icon-label"><i class="fas fa-caret-down"></i>Employment Dates:</label>
+            <input type="text" id="employmentDates" name="employmentDates" class="form-control" required>
         </div>
-        <div>
-            <label for="jobResponsibilities">Job Responsibilities:</label>
-            <textarea id="jobResponsibilities" name="jobResponsibilities" rows="4" required></textarea>
+        <div class="form-group">
+            <label for="jobResponsibilities" class="icon-label"><i class="fas fa-caret-down"></i>Job Responsibilities:</label>
+            <textarea id="jobResponsibilities" name="jobResponsibilities" class="form-control" rows="4" required></textarea>
         </div>
-        <div>
-            <label for="skills">Relevant Skills:</label>
-            <input type="text" id="skills" name="skills" required>
+        <div class="form-group">
+            <label for="skills" class="icon-label"><i class="fas fa-caret-down"></i>Relevant Skills:</label>
+            <input type="text" id="skills" name="skills" class="form-control" required>
         </div>
-        <div>
-            <label for="certifications">Certifications:</label>
-            <input type="text" id="certifications" name="certifications" required>
+        <div class="form-group">
+            <label for="certifications" class="icon-label"><i class="fas fa-caret-down"></i>Certifications:</label>
+            <input type="text" id="certifications" name="certifications" class="form-control" required>
         </div>
-        <div>
-            <label for="startDate">Start Date:</label>
-            <input type="date" id="startDate" name="startDate" required>
+        <div class="form-group">
+            <label for="startDate" class="icon-label"><i class="fas fa-caret-down"></i>Start Date:</label>
+            <input type="date" id="startDate" name="startDate" class="form-control" required>
         </div>
-        <div>
-            <label for="preferredWorkSchedule">Preferred Work Schedule:</label>
-            <input type="text" id="preferredWorkSchedule" name="preferredWorkSchedule" required>
+        <div class="form-group">
+            <label for="preferredWorkSchedule" class="icon-label"><i class="fas fa-caret-down"></i>Preferred Work Schedule:</label>
+            <input type="text" id="preferredWorkSchedule" name="preferredWorkSchedule" class="form-control" required>
         </div>
-        <div>
-            <label for="relocate">Willingness to Relocate:</label>
-            <input type="text" id="relocate" name="relocate" required>
+        <div class="form-group icon-label" id="relocate-group">
+            <label><i class="fas fa-caret-down"></i> Willingness to Relocate:</label>
+            <div class="radio-buttons">
+                <label><input type="radio" name="relocate" value="Yes" required> Yes</label>
+                <label><input type="radio" name="relocate" value="No"> No</label>
+            </div>
         </div>
-        <div>
-            <label for="referenceName">Reference Name:</label>
-            <input type="text" id="referenceName" name="referenceName" required>
+        <div class="form-group">
+            <label for="referenceName" class="icon-label"><i class="fas fa-caret-down"></i>Reference Name:</label>
+            <input type="text" id="referenceName" name="referenceName" class="form-control" required>
         </div>
-        <div>
-            <label for="referenceContact">Reference Contact Information:</label>
-            <input type="text" id="referenceContact" name="referenceContact" required>
+        <div class="form-group">
+            <label for="referenceContact" class="icon-label"><i class="fas fa-caret-down"></i>Reference Contact Information:</label>
+            <input type="text" id="referenceContact" name="referenceContact" class="form-control" required>
         </div>
-        <div>
-            <label for="relationship">Relationship to Applicant:</label>
-            <input type="text" id="relationship" name="relationship" required>
+        <div class="form-group">
+            <label for="relationship" class="icon-label"><i class="fas fa-caret-down"></i>Relationship to Applicant:</label>
+            <input type="text" id="relationship" name="relationship" class="form-control" required>
         </div>
-        <div>
-            <label for="whyWork">Why do you want to work for this company?</label>
-            <textarea id="whyWork" name="whyWork" rows="4" required></textarea>
+        <div class="form-group">
+            <label for="whyWork" class="icon-label"><i class="fas fa-caret-down"></i>Why do you want to work for this company?</label>
+            <textarea id="whyWork" name="whyWork" class="form-control" rows="4" required></textarea>
         </div>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="btn btn-primary">
     </form>
     <br>
-    <button id="viewApplicationsBtn">View Applications as Table</button>
+    <button id="viewApplicationsBtn" class="btn btn-secondary">View Applications as Table</button>
 </div>
 <div id="tableContainer"></div>
 <script>
@@ -112,14 +118,13 @@ let applications = [];
 
 document.getElementById("jobApplicationForm").addEventListener("submit", function(event) {
     event.preventDefault();
-    validateForm();
+    if (validateForm()) {
+        alert("Application submitted successfully!");
+    }
 });
-
 function validateForm() {
-    // Validation logic here...
-
-    // If form is valid, process data
     processData();
+    return true;
 }
 
 function processData() {
@@ -161,6 +166,7 @@ function processData() {
 
 document.getElementById("viewApplicationsBtn").addEventListener("click", function() {
     const table = document.createElement("table");
+    table.classList.add("responsive-table");
     const headers = ["First Name", "Last Name", "Phone Number", "Email", "Resume", "Cover Letter", 
                     "Highest Education", "School/University", "Major/Area of Study", "Graduation Year", 
                     "Previous Job Titles", "Company Names", "Employment Dates", "Job Responsibilities", 
@@ -194,7 +200,7 @@ document.getElementById("viewApplicationsBtn").addEventListener("click", functio
 
     const tableContainer = document.getElementById("tableContainer");
     const container= document.querySelector(".container");
-    container.innerHTML="<center>Job Applications</center>";
+    container.innerHTML="<center style='font-family:Tahoma; color:midnightblue'><strong>Job Applications</strong></center>";
     tableContainer.innerHTML = "";
     tableContainer.appendChild(table);
 });
